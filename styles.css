@@ -1,0 +1,17 @@
+body {
+    background-color:pink ;
+}
+hr {
+    background-color:pink ;
+    border-style:dotted none none ;
+    border-width:7px;
+    border-color:rgb(69, 69, 69);
+    height: 0px;
+    width: 30%;
+}
+h1 {
+    color:purple;
+}
+h3{
+    color: purple;
+}
