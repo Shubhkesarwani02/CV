@@ -15,3 +15,21 @@ h1 {
 h3{
     color: purple;
 }
+
+     /*************tag selector********/
+img:hover {
+    background-color: gold;
+} 
+     /*************class selector********/
+.cricket {
+    background-color: red;
+    border-radius: 100%;
+}
+.football {
+    background-color: green;
+    
+}
+/*************id selector********/
+#heading {
+    color: purple;
+}
