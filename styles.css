@@ -1,8 +1,8 @@
 body {
-    background-color:pink ;
+    background-color:#FCBAD3 ;
 }
 hr {
-    background-color:pink ;
+    background-color:#FCBAD3;
     border-style:dotted none none ;
     border-width:7px;
     border-color:rgb(69, 69, 69);
@@ -10,10 +10,10 @@ hr {
     width: 30%;
 }
 h1 {
-    color:purple;
+    color:#AA96DA;
 }
 h3{
-    color: purple;
+    color:#AA96DA;
 }
 
      /*************tag selector********/
