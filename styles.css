@@ -1,19 +1,19 @@
 body {
-    background-color:#FCBAD3 ;
+    background-color:#F2CD5C ;
 }
 hr {
-    background-color:#FCBAD3;
+    background-color:#F2CD5C;
     border-style:dotted none none ;
     border-width:7px;
-    border-color:rgb(69, 69, 69);
+    border-color:#282F44;
     height: 0px;
     width: 30%;
 }
 h1 {
-    color:#AA96DA;
+    color:#282F44;
 }
 h3{
-    color:#AA96DA;
+    color:#282F44A;
 }
 
      /*************tag selector********/
@@ -31,5 +31,5 @@ img:hover {
 }
 /*************id selector********/
 #heading {
-    color:#AA96DAe;
+    color:#282F44e;
 }
