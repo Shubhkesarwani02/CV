@@ -6,31 +6,30 @@
     <title>⭐SHUBH's WEBSITE⭐</title>
 </head>
 
-<link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="css/favicon.ico">
 
 <body>
 
-    <div>
-        <table cellspacing="25">      
-    <tr>
-        <td><img src="shubh_photo3.jpg" width="300" height="500"> alt= "shubh_informal_photo"</td>
-        <td> <h1>Hi there! This is Shubh</h1>    
-
-            <p><b>EXPLORER</b></p>  
-            <p><b>I'm a web developer.</b></p>        
-            <p>Learned from <strong><a href="https://www.w3schools.com/"> W3 schools</strong></a></p>
-            <p><i><b>I'm a kind person and a <strong>Gentleman</strong>.</b></i></p>  
-            <p><em>Smile to the future , it will smile back to you.</em>.</p>   
-        
-    </tr>
-</table>
-    </div>
+<div class="intro-container">
+    <table cellspacing="75">      
+        <tr>
+            <td><img src="images/shubh_photo4.jpg" width="300" height="400"> </td>
+            <td> <h1>Hi there! This is Shubh</h1>    
     
-<br>  
+                <p><b>EXPLORER</b></p>  
+                <p><b>I'm a web developer.</b></p>        
+                <p>Learned from <strong><a class="w3schools"href="https://www.w3schools.com/"> W3 schools</strong></a></p>
+                <p><i><b>I'm a kind person and a <strong>Gentleman</strong>.</b></i></p>  
+                <p><em>Smile to the future , it will smile back to you.</em>.</p>   
+            
+        </tr>
+    </table>
+</div>
+      
     <hr>   
-    <h3>EDUCATION DETAILS.</h3>
-    
+    <div class="education-container">
+        <h3>EDUCATION DETAILS.</h3>
     <table >                     
         <tr>
             <td><ul><b>Schooling</b>
@@ -47,9 +46,11 @@
         </tr>
     </table>
     
+    </div>
     <hr>
 
-    <h3>MY HOBBIES</h3>
+    <div class="hobbies-container">
+        <h3>MY HOBBIES</h3>
 
     <ol>                                       
         <li><a href="https://en.wikipedia.org/wiki/Cricket">Cricket</a></li>
@@ -60,16 +61,19 @@
 
     <h3><u>Or you can access the links below for the personal details.</u></h3>
     <table border="1" cellpadding="20">      
-            <td><h2><a href=shubh_hobbies.html>My hobbies</a></h2>   </td> 
-            <td><h2><a href=shubh_contact.html>My contact</a></h2>   </td>
+            <td><h2><a class="hobbies" href=html/shubh_hobbies.html>My hobbies</a></h2>   </td> 
+            <td><h2><a class="contact" href=html/shubh_contact.html>My contact</a></h2>   </td>
         </tr>
     </table>
     
+    </div>
+    
     <hr>
       
-    <h3>WORK EXPERIENCE</h3>
+    <div class=" workexp-container">
+        <h3>WORK EXPERIENCE</h3>
    
-    <table border="1" cellpadding="10">    
+    <table  cellpadding="20">    
                                      
         <thead>
             <tr>              
@@ -90,11 +94,13 @@
         </tbody>
 
     </table>
+    </div>
      
     <hr>
-    <h3><b>SKILLS</b></h3>
+    <div class="skill-container">
+        <h3><b>SKILLS</b></h3>
   
-    <table border="1">
+    <table cellpadding="10px">
         <tr>
             <td>Web and App development</td>
             <td>★</td>
@@ -110,11 +116,13 @@
             <td>★★★★</td>
         </tr>
     </table>
+    </div>
     <hr>
                       
 
-    <h3 id="heading">GENERAL FORM</h3>
-     <p> <b> <a href="shubh_form.html">FILL FORM</a> </b> </p>
+    <div class="form-container">
+        <h3 id="heading">GENERAL FORM</h3>
+     <p> <b> <a class="form" href="html/shubh_form.html">FILL FORM</a> </b> </p>
      <p>Go to above link or refer the below attribute.</p>
     <br>
 
@@ -125,8 +133,8 @@
          <input type="email" name="yourEmail"value""> <br>
         <label>Your messege:</label> <br>
          <textarea name="yourMessage" rows="10" cols="30"></textarea> <br>
-         <hr>
          <input type="Submit" name="">  
+    </div>
 
     </body>
 </html>
